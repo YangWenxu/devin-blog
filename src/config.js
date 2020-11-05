@@ -9,17 +9,17 @@ import MyInfo from '@/views/web/about/MyInfo'
 export const API_BASE_URL = 'http://localhost:6060'
 
 // project config
-export const HEADER_BLOG_NAME = '郭大大的博客' // header title 显示的名字
+export const HEADER_BLOG_NAME = '杨文旭的博客' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
   avatar: require('@/assets/images/avatar.jpeg'), // 侧边栏头像
-  title: '郭大大', // 标题
+  title: '杨文旭', // 标题
   subTitle: '学而知不足', // 子标题
   // 个人主页
   homepages: {
     github: {
-      link: 'https://github.com/alvin0216',
+      link: 'https://github.com/yangwenxu',
       icon: <Icon type='github' theme='filled' className='homepage-icon' />
     },
     juejin: {
@@ -37,7 +37,7 @@ export const DISCUSS_AVATAR = SIDEBAR.avatar // 评论框博主头像
  */
 export const GITHUB = {
   enable: true, // github 第三方授权开关
-  client_id: 'c6a96a84105bb0be1fe5', // Setting > Developer setting > OAuth applications => client_id
+  client_id: 'e579001a07575c5b9662', // Setting > Developer setting > OAuth applications => client_id
   url: 'https://github.com/login/oauth/authorize' // 跳转的登录的地址
 }
 
