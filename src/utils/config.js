@@ -1,4 +1,4 @@
-export const OAUTH_CLIENT_ID = 'c6a96a84105bb0be1fe5'
+export const OAUTH_CLIENT_ID = 'e579001a07575c5b9662'
 export const OAUTH_URL = 'https://github.com/login/oauth/authorize'
 
 // color List colr

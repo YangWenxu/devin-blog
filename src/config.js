@@ -6,7 +6,7 @@ import Href from '@/components/Href'
 import MyInfo from '@/views/web/about/MyInfo'
 
 // API_BASE_URL
-export const API_BASE_URL = 'http://localhost:6060'
+export const API_BASE_URL = 'http://yangwenxu.cn:6060'
 
 // project config
 export const HEADER_BLOG_NAME = '杨文旭的博客' // header title 显示的名字
@@ -23,7 +23,7 @@ export const SIDEBAR = {
       icon: <Icon type='github' theme='filled' className='homepage-icon' />
     },
     juejin: {
-      link: 'https://juejin.im/user/5acac6c4f265da2378408f92',
+      link: 'https://juejin.im/user/835284566017272',
       icon: <SvgIcon type='iconjuejin' className='homepage-icon' />
     }
   }
@@ -53,8 +53,8 @@ export const ANNOUNCEMENT = {
   enable: true, // 是否开启
   content: (
     <>
-      个人笔记网站，请访问
-      <Href href='https://alvin.run'> alvin's note</Href>
+      你在忙碌，却有等待和归途
+      {/* <Href href='https://yangwenxu.github.io'> alvin's note</Href> */}
     </>
   )
 }
