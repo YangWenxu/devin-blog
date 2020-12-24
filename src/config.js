@@ -6,16 +6,16 @@ import Href from '@/components/Href'
 import MyInfo from '@/views/web/about/MyInfo'
 
 // API_BASE_URL
-export const API_BASE_URL = 'http://yangwenxu.cn:6060'
+export const API_BASE_URL = 'http://localhost:6060'
 
 // project config
-export const HEADER_BLOG_NAME = '杨文旭的博客' // header title 显示的名字
+export const HEADER_BLOG_NAME = 'blog' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
   avatar: require('@/assets/images/avatar.jpeg'), // 侧边栏头像
   title: '杨文旭', // 标题
-  subTitle: '学而知不足', // 子标题
+  subTitle: '还年轻，吃苦趁现在', // 子标题
   // 个人主页
   homepages: {
     github: {

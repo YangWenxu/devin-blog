@@ -7,28 +7,32 @@ import SvgIcon from '@/components/SvgIcon'
 
 const skills = [
   {
-    label: '具备扎实的 Javascript 基础，熟练使用 ES6+ 语法。',
+    label: '具备扎实的 Javascript 基础，熟练html,css,js,Es6,webpack,vue,react等相关web开发的技术栈',
+    rate: 4
+  },
+  {
+    label: '写过vuejs响应式和虚拟dom的源码，对vue3也有了解',
+    rate: 4
+  },
+  {
+    label: '看过react源码，熟悉react，react hooks，redux等react生态',
+    rate: 4
+  },
+  {
+    label: '熟悉nodejs及koa的开发，写过koa源码，熟悉ssr等服务端渲染',
+    rate: 4
+  },
+  {
+    label: '熟悉前端工程化，模块化方案，构建工具，webpack等性能优化',
+    rate: 4
+  },
+  {
+    label: '熟悉http网络知识，浏览器原理，算法数据结构',
+    rate: 4
+  },
+  {
+    label: '了解小程序开发，设计模式，mysql，MongoDB数据库',
     rate: 3
-  },
-  {
-    label: '熟悉 React 并理解其原理，熟悉 Vue 框架及其用法。',
-    rate: 3
-  },
-  {
-    label: '熟练使用 Webpack 打包工具，熟悉常用工程化和模块化方案。',
-    rate: 3
-  },
-  {
-    label: '熟悉 Koa、Mysql，针对需求可以做到简单的数据库设计、接口的开发与设计！',
-    rate: 2
-  },
-  {
-    label: '熟悉 HTTP 协议，缓存、性能优化、安全等，了解浏览器原理。',
-    rate: 2
-  },
-  {
-    label: '熟悉常用的算法与数据结构',
-    rate: 2
   }
 ]
 
@@ -52,7 +56,7 @@ const MyInfo = () => {
           <Icon type='qq' /> 2653917242
           <Divider type='vertical' />
           <SvgIcon type='iconemail' style={{ marginRight: 5, transform: 'translateY(2px)' }} />
-          {/* <a href='mailto:2653917242@qq.com'>2653917242@qq.com</a> */}
+          <a href='mailto:2653917242@qq.com'>2653917242@qq.com</a>
         </li>
         <li>坐标：杭州市</li>
         <li>

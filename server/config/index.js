@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: yangwenxu
+ * @Date: 2020-11-11 08:57:37
+ * @LastEditors: yangwenxu
+ * @LastEditTime: 2020-12-22 11:18:30
+ */
 const devMode = process.env.NODE_ENV === 'development'
 
 const config = {
@@ -32,7 +40,7 @@ const config = {
     expiresIn: '720h' // token 有效期
   },
   DATABASE: {
-    database: 'test',
+    database: 'react-blog',
     user: 'root',
     password: 'young12345',
     options: {
@@ -60,7 +68,7 @@ if (!devMode) {
   // ==== 配置数据库
   config.DATABASE = {
     ...config.DATABASE,
-    database: 'test', // 数据库名
+    database: 'react-blog', // 数据库名
     user: 'root', // 账号
     password: 'young12345' // 密码
   }

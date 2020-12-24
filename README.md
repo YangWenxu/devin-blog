@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: yangwenxu
+ * @Date: 2020-11-10 08:30:51
+ * @LastEditors: yangwenxu
+ * @LastEditTime: 2020-12-22 11:34:42
+-->
 ## react hooks + koa + mysql
 
 > 一个及其简洁的个人博客系统、即插即用，如果你想使用这个博客、动动手改改配置即可使用！！
@@ -22,7 +30,7 @@ yarn dev
 cd react-blog
 yarn build
 
-## 后端笔者则是采用pm2
+## 后端则是采用pm2
 cd server
 pm2 start app.js
 ```
